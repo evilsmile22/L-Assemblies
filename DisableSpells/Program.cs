@@ -36,7 +36,13 @@ namespace DisableSpells
                 ChampionName = "Sion",
                 AvailableSpell = SpellSlot.W
             });
-
+             
+             Spells.Add(new SpellStruct
+            {
+                ChampionName = "lux",
+                AvailableSpell = SpellSlot.e
+            });
+            
             Spells.Add(new SpellStruct
             {
                 ChampionName = "TwistedFate",
